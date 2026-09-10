@@ -1,0 +1,4 @@
+playwright==1.40.0
+pandas==2.1.4
+aiohttp==3.9.1
+tqdm==4.66.1

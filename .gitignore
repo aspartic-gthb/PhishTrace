@@ -1,0 +1,58 @@
+# Environment Variables & API Keys
+.env
+.env.local
+.env.*
+!.env.example
+*.key
+encryption.key
+*.pem
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Build Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Dependencies & Builds
+node_modules/
+.next/
+dashboard/.next/
+dist/
+build/
+
+# Database, Exports & Data Logs
+sql_app.db
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+!data/processed/train.csv
+data/cache/
+ext_data/
+
+# System & IDEs / Tool Artifacts
+.idea/
+.vscode/
+*.swp
+.DS_Store
+.agents/
+.gemini/
+
+# Temporary logs & outputs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+out.txt
+live_out.txt
+output_report.txt
+fix3_results.txt
+lgbm_output.txt
+debug_output.txt

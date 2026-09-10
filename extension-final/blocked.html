@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚠️ Dangerous Site Blocked</title>
+    <link rel="stylesheet" href="blocked.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Warning Icon -->
+        <div class="icon-container">
+            <svg class="warning-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+            </svg>
+        </div>
+
+        <!-- Main Warning -->
+        <h1 class="title">⚠️ Dangerous Website Blocked</h1>
+        <p class="subtitle">PhishTrace has prevented you from visiting a potentially harmful site</p>
+
+        <!-- Risk Score Display -->
+        <div class="risk-card">
+            <div class="risk-label">Threat Level</div>
+            <div class="risk-score-container">
+                <div class="risk-score" id="risk-score">--</div>
+                <div class="risk-bar">
+                    <div class="risk-fill" id="risk-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blocked URL Display -->
+        <div class="url-card">
+            <div class="url-label">Blocked URL:</div>
+            <div class="url-text" id="blocked-url">Loading...</div>
+        </div>
+
+        <!-- Threat Categories -->
+        <div class="threat-info" id="threat-info">
+            <h3>Detected Threats:</h3>
+            <div class="threat-tags" id="threat-tags">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+
+        <!-- Warning Message -->
+        <div class="warning-box">
+            <p><strong>Why was this blocked?</strong></p>
+            <ul id="reasons-list">
+                <li>This site may attempt to steal your personal information</li>
+                <li>The URL contains suspicious patterns commonly used in phishing attacks</li>
+                <li>Our AI model detected high-risk characteristics</li>
+            </ul>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="actions">
+            <button class="btn btn-primary" id="go-back">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                </svg>
+                Go Back to Safety
+            </button>
+            
+            <button class="btn btn-secondary" id="proceed-btn">
+                Proceed Anyway (Not Recommended)
+            </button>
+        </div>
+
+        <!-- Proceed Confirmation (Hidden by default) -->
+        <div class="proceed-confirm" id="proceed-confirm" style="display: none;">
+            <p class="confirm-text">⚠️ Are you absolutely sure? This site is dangerous.</p>
+            <div class="confirm-actions">
+                <button class="btn btn-danger" id="proceed-final">
+                    Yes, I Understand the Risk
+                </button>
+                <button class="btn btn-secondary" id="cancel-proceed">
+                    Cancel
+                </button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Protected by <strong>PhishTrace</strong> | 
+            <a href="#" id="report-false">Report False Positive</a></p>
+        </div>
+    </div>
+
+    <script src="blocked.js"></script>
+</body>
+</html>
